@@ -14,6 +14,8 @@ body{
  /* margin-bottom: 40px; */
  padding: 10px 20px;
 }
+
+
 .header{
     display: flex;
     align-items: center;
@@ -243,6 +245,10 @@ body{
 @media (max-width:400px) {
     .profile , .building , .footer{
         padding: 10px;
+    }
+
+    .header{
+        padding-left: 10px;
     }
     
 }
